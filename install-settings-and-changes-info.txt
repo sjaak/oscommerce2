@@ -9,6 +9,9 @@ Install:
   -admin/.htaccess
   -admin/.htpasswd_oscommerce
 -Set administrator password in Configuration > Administrators (check 'Protect with htaccess/htpasswd')
+-Get folowing files local:
+  -admin/.htaccess
+  -admin/.htpasswd_oscommerce
 -Extra files permissions settings (possible):
   -/includes/work/ (777) (recommended for cache and sessions)
   -see Tools > Security Directory Permissions
