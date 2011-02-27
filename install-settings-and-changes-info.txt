@@ -1,0 +1,14 @@
+Install, settings and changes doc:
+
+Install:
+
+-Follow web-installation (see 'Installing a New Online Store' from documentation.pdf)
+  -set(777), reset(444) and get local: admin/includes/configure.php, includes/configure.php
+-Do 'Post-Installation Steps' from documentation.pdf
+-Set the two files permissions to 0666 (666)
+  -admin/.htaccess
+  -admin/.htpasswd_oscommerce
+-Set administrator password in Configuration > Administrators (check 'Protect with htaccess/htpasswd')
+-Extra files permissions settings (possible):
+  -/includes/work/ (777) (recommended for cache and sessions)
+  -see Tools > Security Directory Permissions
